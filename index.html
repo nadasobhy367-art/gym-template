@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerZone Gym - أقوى جيم في مصر</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-icon">💪</div>
+        <div class="loader-text">PowerZone Gym</div>
+        <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><i class="fas fa-dumbbell"></i> PowerZone</div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#pricing">الاشتراكات</a></li>
+            <li><a href="#trainers">المدربين</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+        <a href="#pricing" class="btn-appointment">اشترك الآن</a>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>حوّل جسمك <span>ابدأ الآن</span></h1>
+            <p>أحدث الأجهزة، أمهر المدربين، وبيئة مثالية لتحقيق أهدافك</p>
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn-primary">ابدأ تجربتك المجانية</a>
+                <a href="#services" class="btn-secondary">اعرف أكتر</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <h3 class="counter" data-target="500">0</h3>
+                    <p>عضو نشط</p>
+                </div>
+                <div class="hero-stat">
+                    <h3 class="counter" data-target="15">0</h3>
+                    <p>مدرب محترف</p>
+                </div>
+                <div class="hero-stat">
+                    <h3 class="counter" data-target="50">0</h3>
+                    <p>جهاز متطور</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <h2 class="section-title">خدماتنا</h2>
+        <div class="services-grid" id="services-grid"></div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <h2 class="section-title">الاشتراكات</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>شهري</h3>
+                <div class="price">200<span>جنيه/شهر</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> دخول غير محدود</li>
+                    <li><i class="fas fa-check"></i> استخدام جميع الأجهزة</li>
+                    <li><i class="fas fa-check"></i> خزانة شخصية</li>
+                    <li><i class="fas fa-times"></i> مدرب شخصي</li>
+                </ul>
+                <a href="#contact" class="btn-primary">اشترك الآن</a>
+            </div>
+            <div class="price-card featured">
+                <div class="badge">الأكثر طلباً</div>
+                <h3>3 شهور</h3>
+                <div class="price">500<span>جنيه/3 شهور</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> دخول غير محدود</li>
+                    <li><i class="fas fa-check"></i> استخدام جميع الأجهزة</li>
+                    <li><i class="fas fa-check"></i> خزانة شخصية</li>
+                    <li><i class="fas fa-check"></i> جلسة مع مدرب</li>
+                </ul>
+                <a href="#contact" class="btn-white">اشترك الآن</a>
+            </div>
+            <div class="price-card">
+                <h3>سنوي</h3>
+                <div class="price">1500<span>جنيه/سنة</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> دخول غير محدود</li>
+                    <li><i class="fas fa-check"></i> استخدام جميع الأجهزة</li>
+                    <li><i class="fas fa-check"></i> خزانة شخصية</li>
+                    <li><i class="fas fa-check"></i> مدرب شخصي</li>
+                </ul>
+                <a href="#contact" class="btn-primary">اشترك الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers -->
+    <section class="trainers" id="trainers">
+        <h2 class="section-title">مدربينا</h2>
+        <div class="trainers-grid" id="trainers-grid"></div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <h2 class="section-title">جاليري الجيم</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <img src="https://images.unsplash.com/photo-1581009137042-c552e485697a?w=800" alt="جيم">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?w=400" alt="تمرين">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400" alt="أجهزة">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400" alt="تمرين">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400" alt="جيم">
+                <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+            </div>
+        </div>
+        <div class="lightbox" id="lightbox">
+            <span class="close-lightbox"><i class="fas fa-times"></i></span>
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <h2 class="section-title">آراء أعضاءنا</h2>
+        <div class="testimonials-grid" id="testimonials-grid"></div>
+    </section>
+
+    <!-- BMI Calculator -->
+    <section class="bmi" id="bmi">
+        <h2 class="section-title">احسب كتلة جسمك</h2>
+        <div class="bmi-container">
+            <div class="bmi-form">
+                <div class="bmi-input">
+                    <label>الطول (سم)</label>
+                    <input type="number" id="height" placeholder="مثال: 175">
+                </div>
+                <div class="bmi-input">
+                    <label>الوزن (كجم)</label>
+                    <input type="number" id="weight" placeholder="مثال: 70">
+                </div>
+                <button class="btn-primary" onclick="calculateBMI()">احسب الآن</button>
+            </div>
+            <div class="bmi-result" id="bmi-result">
+                <div class="bmi-circle" id="bmi-circle">
+                    <h3 id="bmi-value">--</h3>
+                    <p>BMI</p>
+                </div>
+                <h4 id="bmi-status">أدخل بياناتك</h4>
+                <p id="bmi-advice">سنساعدك في تحقيق وزنك المثالي</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="schedule" id="schedule">
+        <h2 class="section-title">جدول الكلاسات</h2>
+        <div class="schedule-grid">
+            <div class="day-card">
+                <h3>السبت</h3>
+                <div class="class-item"><span class="time">8 ص</span><span class="class-name">زومبا</span><span class="trainer">سارة</span></div>
+                <div class="class-item"><span class="time">10 ص</span><span class="class-name">يوجا</span><span class="trainer">نور</span></div>
+                <div class="class-item"><span class="time">6 م</span><span class="class-name">باور</span><span class="trainer">أحمد</span></div>
+            </div>
+            <div class="day-card">
+                <h3>الأحد</h3>
+                <div class="class-item"><span class="time">9 ص</span><span class="class-name">كارديو</span><span class="trainer">كريم</span></div>
+                <div class="class-item"><span class="time">11 ص</span><span class="class-name">بوكس</span><span class="trainer">محمد</span></div>
+                <div class="class-item"><span class="time">7 م</span><span class="class-name">فتنس</span><span class="trainer">عمر</span></div>
+            </div>
+            <div class="day-card">
+                <h3>الاثنين</h3>
+                <div class="class-item"><span class="time">8 ص</span><span class="class-name">يوجا</span><span class="trainer">نور</span></div>
+                <div class="class-item"><span class="time">10 ص</span><span class="class-name">زومبا</span><span class="trainer">سارة</span></div>
+                <div class="class-item"><span class="time">6 م</span><span class="class-name">باور</span><span class="trainer">أحمد</span></div>
+            </div>
+            <div class="day-card">
+                <h3>الثلاثاء</h3>
+                <div class="class-item"><span class="time">9 ص</span><span class="class-name">بوكس</span><span class="trainer">محمد</span></div>
+                <div class="class-item"><span class="time">11 ص</span><span class="class-name">كارديو</span><span class="trainer">كريم</span></div>
+                <div class="class-item"><span class="time">7 م</span><span class="class-name">فتنس</span><span class="trainer">عمر</span></div>
+            </div>
+            <div class="day-card">
+                <h3>الأربعاء</h3>
+                <div class="class-item"><span class="time">8 ص</span><span class="class-name">زومبا</span><span class="trainer">سارة</span></div>
+                <div class="class-item"><span class="time">10 ص</span><span class="class-name">باور</span><span class="trainer">أحمد</span></div>
+                <div class="class-item"><span class="time">6 م</span><span class="class-name">يوجا</span><span class="trainer">نور</span></div>
+            </div>
+            <div class="day-card">
+                <h3>الخميس</h3>
+                <div class="class-item"><span class="time">9 ص</span><span class="class-name">كارديو</span><span class="trainer">كريم</span></div>
+                <div class="class-item"><span class="time">11 ص</span><span class="class-name">فتنس</span><span class="trainer">عمر</span></div>
+                <div class="class-item"><span class="time">7 م</span><span class="class-name">بوكس</span><span class="trainer">محمد</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <h2 class="section-title">أسئلة شائعة</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question"><h4>هل في تجربة مجانية؟</h4><i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer"><p>أيوه، بنوفر أول أسبوع مجاناً لأي عضو جديد.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><h4>هل في لوكر روم؟</h4><i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer"><p>أيوه، عندنا لوكر روم متكاملة مع دوشات ودواليب شخصية.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><h4>هل المدرب الشخصي مدفوع؟</h4><i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer"><p>بيجي مع اشتراك 3 شهور وسنوي، وممكن يتضاف للشهري بسعر إضافي.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><h4>إيه مواعيد الجيم؟</h4><i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer"><p>بنفتح السبت للخميس من 6 صباحاً لـ 12 منتصف الليل.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><h4>هل في برنامج تغذية؟</h4><i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer"><p>أيوه، عندنا أخصائي تغذية بيعمل برنامج غذائي متخصص لكل عضو.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><h4>هل ممكن تجديد الاشتراك أونلاين؟</h4><i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer"><p>أيوه، ممكن تجدد أونلاين أو عن طريق واتساب بكل سهولة.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">تواصل معنا</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="info-item"><i class="fas fa-map-marker-alt"></i><p>123 شارع التحرير، القاهرة</p></div>
+                <div class="info-item"><i class="fas fa-phone"></i><p>01000000000+</p></div>
+                <div class="info-item"><i class="fas fa-clock"></i><p>السبت - الخميس: 6 صباحاً - 12 منتصف الليل</p></div>
+                <div class="info-item"><i class="fab fa-whatsapp"></i><p>واتساب متاح 24/7</p></div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="اسمك الكامل" required>
+                <input type="tel" placeholder="رقم تليفونك" required>
+                <select required>
+                    <option value="">اختار الاشتراك</option>
+                    <option>شهري - 200 جنيه</option>
+                    <option>3 شهور - 500 جنيه</option>
+                    <option>سنوي - 1500 جنيه</option>
+                </select>
+                <textarea placeholder="رسالتك (اختياري)"></textarea>
+                <button type="submit" class="btn-primary">ابعت الآن</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/201000000000" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll Top -->
+    <button class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+    <footer>
+        <p>© 2026 PowerZone Gym - جميع الحقوق محفوظة</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
